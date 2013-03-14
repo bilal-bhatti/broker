@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<Context path="/imis" debug="5" reloadable="true" crossContext="true">
+	<ResourceLink name="jdbc/imisDS" global="jdbc/globalScuidDS" type="javax.sql.DataSource" />
+</Context>
