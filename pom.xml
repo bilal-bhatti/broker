@@ -8,19 +8,7 @@
 	<name>Simple JSON Message Broker</name>
 	<url>http://maven.apache.org</url>
 
-	<pluginRepositories>
-		<pluginRepository>
-			<id>apache.org</id>
-			<name>Maven Plug-in Snapshots</name>
-			<url>http://people.apache.org/repo/m2-snapshot-repository</url>
-			<releases>
-				<enabled>false</enabled>
-			</releases>
-			<snapshots>
-				<enabled>true</enabled>
-			</snapshots>
-		</pluginRepository>
-	</pluginRepositories>
+	<!-- Plugin repository removed due to HTTP blocking issue -->
 
 	<build>
 		<resources>
@@ -82,7 +70,7 @@
 		<dependency>
 			<groupId>mysql</groupId>
 			<artifactId>mysql-connector-java</artifactId>
-			<version>5.1.6</version>
+			<version>8.0.30</version>
 			<optional>true</optional>
 		</dependency>
 		<dependency>
